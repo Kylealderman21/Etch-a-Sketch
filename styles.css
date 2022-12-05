@@ -1,0 +1,19 @@
+body {
+    padding: 40px;
+    background-color: #252525;
+}
+
+#container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #252525;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
