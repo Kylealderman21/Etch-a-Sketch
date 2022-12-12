@@ -1,6 +1,9 @@
 const container = document.querySelector('#container');
 
 let gridNum = 16;
+let userSelection = prompt('Enter Grid Size from 0 - 100:');
+gridNum = userSelection;
+
 function makeGrid(gridNum) {
    let totalDivs = gridNum * gridNum;
    container.style.gridTemplateColumns = `repeat(${gridNum}, auto)`;

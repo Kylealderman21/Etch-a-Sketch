@@ -1,6 +1,6 @@
 body {
     padding: 40px;
-    background-color: #252525;
+    background-color: #5a228b;
 }
 
 #container {
@@ -17,3 +17,6 @@ body {
     color: white;
 }
 
+.hovered {
+    background-color: #252525;
+}
