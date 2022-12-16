@@ -15,8 +15,18 @@ body {
 .header {
     text-align: center;
     color: white;
+    margin: 24px;
 }
 
 .hovered {
     background-color: #252525;
+}
+
+button {
+    max-width: 200px;
+    margin: 24px;
+}
+
+.button-div {
+    text-align: center;
 }
